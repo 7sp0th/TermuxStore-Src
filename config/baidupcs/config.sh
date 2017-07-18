@@ -4,8 +4,6 @@ apt update
 apt install -y curl-dev openssl-dev openssl
 echo 下载源码
 git clone https://github.com/GangZhuo/BaiduPCS
-echo 安装依赖
-apt install curl libcurl openssh openssh-dev
 echo 开始编译
 cd BaiduPCS
 cc=clang
